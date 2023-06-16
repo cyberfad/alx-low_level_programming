@@ -1,15 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - printing digits 
+ * main - Reverse order printing
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int number;
+	char alp;
 
-	for (number = 48; number < 58; number++)
-		putchar(number);
+	for (alp = 'z'; alp >= 'a'; alp--)
+		putchar(alp);
 	putchar('\n');
 	return (0);
 }
