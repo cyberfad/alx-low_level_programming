@@ -3,9 +3,8 @@
 /**
  * main - Entry Point
  *
- * Retirn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int number;
