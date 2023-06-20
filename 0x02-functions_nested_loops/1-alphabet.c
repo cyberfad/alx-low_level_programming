@@ -1,24 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 
-int main (void)
-{
+	/**
+	 * print_alphabet - print all alphabet in lowercase
+	 */
+
+
 	void print_alphabet(void)
 	{
-		int num;
-		for (num = 97; num <= 122; num++)
-		{
-			putchar(num);
-		}
-	}
-	putchar('\n');
-	print_alphabet();
+		char letter;
 
-	return (0);
+
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+
+
+		_putchar('\n');
+	}
 }
