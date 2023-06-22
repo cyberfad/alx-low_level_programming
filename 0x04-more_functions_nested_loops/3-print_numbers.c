@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers(void) - print characters 0 to 9 using _putchar
+ * print_numbers(void)- print characters 0 to 9 using _putchar
  *
  * Return: void
  */
+
 void print_numbers(void)
 {
 	char i;
