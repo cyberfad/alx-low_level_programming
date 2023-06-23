@@ -3,7 +3,6 @@
 
 /**
  * main(void)- A program that prints Fizz and Buzz
- * @n: number from 1 to 100
  * Return: 0 Success
  */
 
