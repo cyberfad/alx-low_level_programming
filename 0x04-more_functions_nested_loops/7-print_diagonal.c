@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal(int n)- print thetescape chareacter a number of times
+ * @n: number to be inputrd
  * Return: void
  */
 
