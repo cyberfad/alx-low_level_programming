@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/* A program that prints Fizz and Buzz*/
+/**
+ * main(void)- A program that prints Fizz and Buzz
+ * @n: number from 1 to 100
+ * Return: 0 Success
+ */
 
 int main(void)
 {
